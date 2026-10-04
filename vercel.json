@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.newskiywrap.ru" }],
+      "destination": "https://newskiywrap.ru/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "newskiywrap.online" }],
+      "destination": "https://newskiywrap.ru/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.newskiywrap.online" }],
+      "destination": "https://newskiywrap.ru/:path",
+      "permanent": true
+    }
+  ]
+}
