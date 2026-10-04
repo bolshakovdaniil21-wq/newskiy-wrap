@@ -331,7 +331,7 @@ INFO.forEach((it, i) => {
   b.dataset.idx = i;
   b.style.setProperty('--i', i);
   b.setAttribute('aria-label', 'Открыть: ' + it.title);
-  b.innerHTML = '<span class="ic-num"></span><span class="ic-tag"></span><b class="ic-title"></b><p class="ic-sum"></p>' +
+  b.innerHTML = '<span class="ic-num"></span><span class="ic-body"><span class="ic-tag"></span><b class="ic-title"></b><p class="ic-sum"></p></span>' +
     '<span class="more" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 17 7M8 7h9v9"/></svg></span>';
   b.querySelector('.ic-num').textContent = String(i + 1).padStart(2, '0');
   b.querySelector('.ic-tag').textContent = it.tag;
