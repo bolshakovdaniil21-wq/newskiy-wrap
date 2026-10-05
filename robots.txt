@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: https://newskiywrap.ru
+Sitemap: https://newskiywrap.ru/sitemap.xml
